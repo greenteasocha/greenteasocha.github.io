@@ -112,5 +112,16 @@ function calculatePercentage(lowerString) {
 }
 
 function clearLocalData() {
-  localStorage.clear(LOCAL_STORAGE_KEY);
+    for (let i = 1; i <= N_SUBCHAPTER; i++) {
+        divNumber = i.toString();
+        subResult = res["subChapter" + divNumber];
+
+        var elemUpper = document.getElementById("up" + divNumber);
+        var elemLower = document.getElementById("lw" + divNumber);
+    
+        elemLower.innerHTML = "0 / 0";    
+        elemUpper.innerHTML = "0";
+    }
+    calculateTotal();
+    localStorage.clear(LOCAL_STORAGE_KEY);
 }
