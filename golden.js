@@ -82,7 +82,7 @@ function loadStorageRecord() {
 
 function loadTestData(){
   console.log("test");
-  testData = '{"subChapter1":"4 / 7","subChapter2":"1 / 1","subChapter3":"1 / 4","subChapter4":"5 / 7"}';
+  testData = '{"subChapter1":"4 / 7","subChapter2":"1 / 1","subChapter3":"1 / 4","subChapter4":"5 / 7", "subChapter5":"5 / 7", "subChapter6":"5 / 7", "subChapter7":"5 / 7"}';
   
   res = JSON.parse(testData);
   for (let i = 1; i <= N_SUBCHAPTER; i++) {
