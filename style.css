@@ -1,0 +1,97 @@
+.subchapters {
+    margin: 10% auto;
+    max-width: 500px;
+    /* display: block; */
+    display: flex;
+    gap: 3px;
+
+}
+
+.button-align-place {
+    display: flex;
+    gap: 3px;
+
+}
+
+.contents {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.summit {
+    margin: -40% 0px 0;
+    background-image: url("./summit_focus.png");
+    background-size: cover;
+    height: 150%;
+    opacity: 0.2;
+}
+
+.text-button {
+    border-radius: 25px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    background-color: #c3ebdd;
+    border: 2px solid #c3ebff;
+    padding: 10px;
+}
+
+.text-button-total {
+    border-radius: 25px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    background-color: #ffebba;
+    border: 2px solid #bbbcba;
+    padding: 10px;
+}
+
+.button-click-left {
+    z-index: 10;
+    position: relative;
+    opacity: 0;
+    width: 50px;
+    height: 80px;
+    margin: -80px 0px 0;
+    background: #c3ebdd;
+    padding: 0px;
+}
+
+.button-click-right {
+    z-index: 10;
+    position: relative;
+    opacity: 0;
+    width: 50px;
+    height: 80px;
+    margin: -80px 50px 0;
+    background: #c3ebdd;
+    padding: 0px;
+}
+
+
+.botton-upper {
+    font-size: 20pt
+}
+
+.botton-lower {
+    font-size: 10pt;
+}
+
+.stage-name {
+    font-family: 'Kaushan Script';
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+
+.space {
+    width: 100px;
+}

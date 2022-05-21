@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="style.css">
+<script src="golden.js"></script>
+
+<body onload="loadStorageRecord()">
+    <div class="subchapters">
+        <div class="button-align-place">
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up1">0</div>
+                    <div class="botton-lower" id="lw1">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(1)"></div>
+                <div class=button-click-right onclick="rightClickEvent(1)"></div>
+                <div class="stage-name">0m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up2">0</div>
+                    <div class="botton-lower" id="lw2">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(2)"></div>
+                <div class=button-click-right onclick="rightClickEvent(2)"></div>
+                <div class="stage-name">500m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up3">0</div>
+                    <div class="botton-lower" id="lw3">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(3)"></div>
+                <div class=button-click-right onclick="rightClickEvent(3)"></div>
+                <div class="stage-name">1000m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up4">0</div>
+                    <div class="botton-lower" id="lw4">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(4)"></div>
+                <div class=button-click-right onclick="rightClickEvent(4)"></div>
+                <div class="stage-name">1500m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up5">0</div>
+                    <div class="botton-lower" id="lw5">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(5)"></div>
+                <div class=button-click-right onclick="rightClickEvent(5)"></div>
+                <div class="stage-name">2000m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up6">0</div>
+                    <div class="botton-lower" id="lw6">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(6)"></div>
+                <div class=button-click-right onclick="rightClickEvent(6)"></div>
+                <div class="stage-name">2500m</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up7">0</div>
+                    <div class="botton-lower" id="lw7">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(7)"></div>
+                <div class=button-click-right onclick="rightClickEvent(7)"></div>
+                <div class="stage-name">3000m</div>
+            </div>
+
+
+
+
+            <!--   total -->
+            <div class="space"></div>
+            <div id="chapter">
+                <div class="text-button-total">
+                    <div class="botton-upper" id="total-upper">0</div>
+                </div>
+                <div class="stage-name">The Summit(Overall)</div>
+            </div>
+        </div>
+    </div>
+    <div class="summit">
+
+    </div>
+    <div button onclick="loadTestData()">load</div>
+    <div button onclick="clearLocalData()">clear</div>
+</body>
