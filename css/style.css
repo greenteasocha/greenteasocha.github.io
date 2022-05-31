@@ -20,7 +20,15 @@
 
 .summit {
     margin: -40% 0px 0;
-    background-image: url("./summit_focus.png");
+    background-image: url("../background/summit_focus.png");
+    background-size: cover;
+    height: 150%;
+    opacity: 0.2;
+}
+
+.core {
+    margin: -40% 0px 0;
+    background-image: url("../background/core.png");
     background-size: cover;
     height: 150%;
     opacity: 0.2;

@@ -59,7 +59,8 @@ function saveLocalStatus() {
   localStorage.setItem(LOCAL_STORAGE_KEY, localRecordsJson);
 }
 
-function loadStorageRecord() {
+function loadStorageRecord(nsub) {
+  N_SUBCHAPTER = nsub
   var resJson = localStorage.getItem(LOCAL_STORAGE_KEY);
   if (resJson == null) {
     return;

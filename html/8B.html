@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/golden.js"></script>
+
+<body onload="loadStorageRecord(4)">
+    <div class="subchapters">
+        <div class="button-align-place">
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up1">0</div>
+                    <div class="botton-lower" id="lw1">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(1)"></div>
+                <div class=button-click-right onclick="rightClickEvent(1)"></div>
+                <div class="stage-name">Start</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up2">0</div>
+                    <div class="botton-lower" id="lw2">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(2)"></div>
+                <div class=button-click-right onclick="rightClickEvent(2)"></div>
+                <div class="stage-name">Into the Core</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up3">0</div>
+                    <div class="botton-lower" id="lw3">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(3)"></div>
+                <div class=button-click-right onclick="rightClickEvent(3)"></div>
+                <div class="stage-name">Burning or Freezing</div>
+            </div>
+            <div id="whole-button">
+                <div class="text-button">
+                    <div class="botton-upper" id="up4">0</div>
+                    <div class="botton-lower" id="lw4">0 / 0</div>
+                </div>
+                <div class=button-click-left onclick="leftClickEvent(4)"></div>
+                <div class=button-click-right onclick="rightClickEvent(4)"></div>
+                <div class="stage-name">Heartbeat</div>
+            </div>
+
+
+            <!--   total -->
+            <div class="space"></div>
+            <div id="chapter">
+                <div class="text-button-total">
+                    <div class="botton-upper" id="total-upper">0</div>
+                </div>
+                <div class="stage-name">Core(Overall)</div>
+            </div>
+        </div>
+    </div>
+    <div class="core">
+
+    </div>
+    <button onclick="loadTestData()">Load Sample</button>
+    <button onclick="clearLocalData()">Clear All State</button>
+</body>
